@@ -1,0 +1,237 @@
+05/29/2023 07:23:36 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:23:36 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:23:36 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:23:37 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:23:37 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:23:37 PM - INFO - Retrieval successful
+05/29/2023 07:23:37 PM - INFO - Connecting to snowflake...
+05/29/2023 07:23:37 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:23:37 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:23:37 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:23:38 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:23:38 PM - INFO - Loading {file_name} into snowflake
+05/29/2023 07:23:38 PM - INFO - query: [PUT file://covid-19-data-david/Covid19-Data/covid_19_data_05252023.csv my_s3_sta...]
+05/29/2023 07:23:38 PM - INFO - query execution done
+05/29/2023 07:23:38 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:23:38 PM - INFO - closed
+05/29/2023 07:23:38 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:24:46 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:24:46 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:24:46 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:24:46 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:24:46 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:24:46 PM - INFO - Retrieval successful
+05/29/2023 07:24:46 PM - INFO - Connecting to snowflake...
+05/29/2023 07:24:46 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:24:46 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:24:46 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:24:47 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:24:47 PM - INFO - Loading {file_name} into snowflake
+05/29/2023 07:24:47 PM - INFO - Running PUT command
+05/29/2023 07:24:47 PM - INFO - query: [PUT file://covid-19-data-david/Covid19-Data/covid_19_data_05252023.csv my_s3_sta...]
+05/29/2023 07:24:47 PM - INFO - query execution done
+05/29/2023 07:24:47 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:24:47 PM - INFO - closed
+05/29/2023 07:24:47 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:26:30 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:26:30 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:26:30 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:26:31 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:26:31 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:26:31 PM - INFO - Retrieval successful
+05/29/2023 07:26:31 PM - INFO - Connecting to snowflake...
+05/29/2023 07:26:31 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:26:31 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:26:31 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:26:32 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:26:32 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 07:26:32 PM - INFO - Running PUT command
+05/29/2023 07:26:32 PM - INFO - query: [PUT file://s3://covid-19-data-david/Covid19-Data/covid_19_data_05252023.csv my_s...]
+05/29/2023 07:26:32 PM - INFO - query execution done
+05/29/2023 07:26:32 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:26:32 PM - INFO - closed
+05/29/2023 07:26:32 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:30:34 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:30:35 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:30:35 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:30:35 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:30:35 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:30:35 PM - INFO - Retrieval successful
+05/29/2023 07:30:35 PM - INFO - Connecting to snowflake...
+05/29/2023 07:30:35 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:30:35 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:30:35 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:30:36 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:30:36 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 07:30:36 PM - INFO - Running PUT command
+05/29/2023 07:30:36 PM - INFO - query: [PUT file://s3://covid-19-data-david/Covid19-Data/covid_19_data_05252023.csv my_s...]
+05/29/2023 07:30:36 PM - INFO - query execution done
+05/29/2023 07:30:36 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:30:36 PM - INFO - closed
+05/29/2023 07:30:36 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:30:54 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:30:54 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:30:54 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:30:55 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:30:55 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:30:55 PM - INFO - Retrieval successful
+05/29/2023 07:30:55 PM - INFO - Connecting to snowflake...
+05/29/2023 07:30:55 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:30:55 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:30:55 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:30:55 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:30:55 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 07:30:55 PM - INFO - Running PUT command
+05/29/2023 07:30:55 PM - INFO - query: [PUT file://s3://covid-19-data-david/Covid19-Data/covid_19_data_05252023.csv my_s...]
+05/29/2023 07:30:55 PM - INFO - query execution done
+05/29/2023 07:30:55 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:30:56 PM - INFO - closed
+05/29/2023 07:30:56 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:34:46 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:34:47 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:34:47 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:34:47 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:34:47 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:34:47 PM - INFO - Retrieval successful
+05/29/2023 07:34:47 PM - INFO - Connecting to snowflake...
+05/29/2023 07:34:47 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:34:47 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:34:47 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:34:48 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:34:48 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 07:34:48 PM - INFO - Running PUT command
+05/29/2023 07:34:48 PM - INFO - query: [PUT file://s3://covid-19-data-david/Covid19-Data/covid_19_data_05252023.csv MY_S...]
+05/29/2023 07:34:48 PM - INFO - query execution done
+05/29/2023 07:34:48 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:34:48 PM - INFO - closed
+05/29/2023 07:34:48 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:41:09 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:41:09 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:41:09 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:41:09 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:41:09 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:41:09 PM - INFO - Retrieval successful
+05/29/2023 07:41:09 PM - INFO - Connecting to snowflake...
+05/29/2023 07:41:09 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:41:09 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:41:09 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:41:12 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:41:12 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 07:41:12 PM - INFO - Running COPY command
+05/29/2023 07:41:12 PM - INFO - query: [COPY INTO covid_19_vaccination_data_by_nyc_zipcode_fct FROM @MY_S3_STAGE FILES=c...]
+05/29/2023 07:41:12 PM - INFO - query execution done
+05/29/2023 07:41:12 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:41:12 PM - INFO - closed
+05/29/2023 07:41:12 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 07:42:08 PM - INFO - Getting Access/Secret Key
+05/29/2023 07:42:08 PM - INFO - S3 Connection Succcessful!
+05/29/2023 07:42:08 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 07:42:09 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 07:42:09 PM - INFO - Getting Snowflake Credentials
+05/29/2023 07:42:09 PM - INFO - Retrieval successful
+05/29/2023 07:42:09 PM - INFO - Connecting to snowflake...
+05/29/2023 07:42:09 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 07:42:09 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 07:42:09 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 07:42:09 PM - INFO - Snowflake Connection Successful
+05/29/2023 07:42:09 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 07:42:09 PM - INFO - Running COPY command
+05/29/2023 07:42:09 PM - INFO - query: [COPY INTO covid_19_vaccination_data_by_nyc_zipcode_fct FROM 's3://covid-19-data-...]
+05/29/2023 07:42:09 PM - INFO - query execution done
+05/29/2023 07:42:10 PM - CRITICAL - covid_19_data_05252023.csv not uploaded
+05/29/2023 07:42:10 PM - INFO - closed
+05/29/2023 07:42:10 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 09:29:22 PM - INFO - Getting Access/Secret Key
+05/29/2023 09:29:22 PM - INFO - S3 Connection Succcessful!
+05/29/2023 09:29:22 PM - INFO - Pulling covid_19_data_05252023.csv from S3
+05/29/2023 09:29:22 PM - INFO - covid_19_data_05252023.csv successfully downloaded
+05/29/2023 09:29:22 PM - INFO - Getting Snowflake Credentials
+05/29/2023 09:29:22 PM - INFO - Retrieval successful
+05/29/2023 09:29:22 PM - INFO - Connecting to snowflake...
+05/29/2023 09:29:22 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 09:29:22 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 09:29:22 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 09:29:23 PM - INFO - Snowflake Connection Successful
+05/29/2023 09:29:23 PM - INFO - Loading covid_19_data_05252023.csv into snowflake
+05/29/2023 09:29:23 PM - INFO - Running COPY command
+05/29/2023 09:29:23 PM - INFO - query: [COPY INTO covid_19_vaccination_data_by_nyc_zipcode_fct (DATE, NEIGHBORHOOD_NAME,...]
+05/29/2023 09:29:24 PM - INFO - query execution done
+05/29/2023 09:29:24 PM - INFO - Number of results in first chunk: 1
+05/29/2023 09:29:24 PM - INFO - {file_name} uploaded successfully
+05/29/2023 09:29:24 PM - INFO - closed
+05/29/2023 09:29:24 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 11:19:56 PM - INFO - Extracting files from Github repository
+05/29/2023 11:22:39 PM - INFO - Extracting files from Github repository
+05/29/2023 11:22:39 PM - INFO - Config file successfully loaded.
+05/29/2023 11:23:31 PM - INFO - Loading config file
+05/29/2023 11:23:31 PM - INFO - Config file successfully loaded.
+05/29/2023 11:27:36 PM - INFO - Loading config file
+05/29/2023 11:27:36 PM - INFO - Config file successfully loaded.
+05/29/2023 11:27:37 PM - INFO - Retrieving GitHub token...
+05/29/2023 11:27:37 PM - INFO - Retrieving GitHub token successful...
+05/29/2023 11:27:37 PM - INFO - Retrieving GitHub files...
+05/29/2023 11:27:38 PM - INFO - Github file retrieval successful.
+05/29/2023 11:27:38 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+05/29/2023 11:27:38 PM - INFO - Data Successfully loaded into S3
+05/29/2023 11:30:16 PM - INFO - Loading config file
+05/29/2023 11:30:16 PM - INFO - Config file successfully loaded.
+05/29/2023 11:30:17 PM - INFO - Retrieving GitHub token...
+05/29/2023 11:30:17 PM - INFO - Retrieving GitHub token successful...
+05/29/2023 11:30:17 PM - INFO - Retrieving GitHub files...
+05/29/2023 11:30:17 PM - INFO - Github file retrieval successful.
+05/29/2023 11:30:17 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+05/29/2023 11:30:17 PM - INFO - Data Successfully loaded into S3
+05/29/2023 11:30:49 PM - INFO - Loading config file
+05/29/2023 11:30:49 PM - INFO - Config file successfully loaded.
+05/29/2023 11:30:50 PM - INFO - Retrieving GitHub token...
+05/29/2023 11:30:50 PM - INFO - Retrieving GitHub token successful...
+05/29/2023 11:30:50 PM - INFO - Retrieving GitHub files...
+05/29/2023 11:30:50 PM - INFO - Github file retrieval successful.
+05/29/2023 11:30:50 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+05/29/2023 11:30:50 PM - INFO - Data Successfully loaded into S3
+05/29/2023 11:33:57 PM - INFO - Getting Access/Secret Key
+05/29/2023 11:33:57 PM - INFO - S3 Connection Succcessful!
+05/29/2023 11:33:57 PM - INFO - Pulling covid_19_data_20230529.csv from S3
+05/29/2023 11:33:58 PM - INFO - covid_19_data_20230529.csv successfully downloaded
+05/29/2023 11:33:58 PM - INFO - Getting Snowflake Credentials
+05/29/2023 11:33:58 PM - INFO - Retrieval successful
+05/29/2023 11:33:58 PM - INFO - Connecting to snowflake...
+05/29/2023 11:33:58 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 11:33:58 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 11:33:58 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 11:33:59 PM - INFO - Snowflake Connection Successful
+05/29/2023 11:33:59 PM - INFO - Loading covid_19_data_20230529.csv into snowflake
+05/29/2023 11:33:59 PM - INFO - Running COPY command
+05/29/2023 11:33:59 PM - INFO - query: [COPY INTO covid_19_vaccination_data_by_nyc_zipcode_fct (DATE, NEIGHBORHOOD_NAME,...]
+05/29/2023 11:34:00 PM - INFO - query execution done
+05/29/2023 11:34:00 PM - INFO - Number of results in first chunk: 1
+05/29/2023 11:34:00 PM - INFO - covid_19_data_20230529.csv uploaded successfully
+05/29/2023 11:34:01 PM - INFO - closed
+05/29/2023 11:34:01 PM - INFO - No async queries seem to be running, deleting session
+05/29/2023 11:37:27 PM - INFO - Loading config file
+05/29/2023 11:37:27 PM - INFO - Config file successfully loaded.
+05/29/2023 11:37:27 PM - INFO - Retrieving GitHub token...
+05/29/2023 11:37:27 PM - INFO - Retrieving GitHub token successful...
+05/29/2023 11:37:27 PM - INFO - Retrieving GitHub files...
+05/29/2023 11:37:28 PM - INFO - Github file retrieval successful.
+05/29/2023 11:37:28 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+05/29/2023 11:37:28 PM - INFO - Data Successfully loaded into S3
+05/29/2023 11:37:35 PM - INFO - Getting Access/Secret Key
+05/29/2023 11:37:35 PM - INFO - S3 Connection Succcessful!
+05/29/2023 11:37:35 PM - INFO - Pulling covid_19_data_20230529.csv from S3
+05/29/2023 11:37:36 PM - INFO - covid_19_data_20230529.csv successfully downloaded
+05/29/2023 11:37:36 PM - INFO - Getting Snowflake Credentials
+05/29/2023 11:37:36 PM - INFO - Retrieval successful
+05/29/2023 11:37:36 PM - INFO - Connecting to snowflake...
+05/29/2023 11:37:36 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+05/29/2023 11:37:36 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+05/29/2023 11:37:36 PM - INFO - Setting use_openssl_only mode to False
+05/29/2023 11:37:37 PM - INFO - Snowflake Connection Successful
+05/29/2023 11:37:37 PM - INFO - Loading covid_19_data_20230529.csv into snowflake
+05/29/2023 11:37:37 PM - INFO - Running COPY command
+05/29/2023 11:37:37 PM - INFO - query: [COPY INTO covid_19_vaccination_data_by_nyc_zipcode_fct (DATE, NEIGHBORHOOD_NAME,...]
+05/29/2023 11:37:38 PM - INFO - query execution done
+05/29/2023 11:37:38 PM - INFO - Number of results in first chunk: 1
+05/29/2023 11:37:38 PM - INFO - covid_19_data_20230529.csv uploaded successfully
+05/29/2023 11:37:38 PM - INFO - closed
+05/29/2023 11:37:38 PM - INFO - No async queries seem to be running, deleting session

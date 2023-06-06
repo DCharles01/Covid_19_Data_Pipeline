@@ -1,0 +1,14 @@
+config/config.ini
+dags/covid_19_data_pipeline.py
+dags/airflow.db
+dags/airflow_starter.sh
+dags/test_pipeline.py
+dags/webserver_config.py
+data_pipeline_log.py
+Untitled.ipynb
+.ipynb_checkpoints
+docker_commands_cheatsheet.txt
+docker-compose_2.txt
+Dockerfile_2.txt
+.env
+.DS_Store

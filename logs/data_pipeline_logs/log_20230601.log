@@ -1,0 +1,80 @@
+06/01/2023 11:04:41 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:04:41 PM - INFO - Loading Config file
+06/01/2023 11:04:41 PM - INFO - Loading config file
+06/01/2023 11:04:41 PM - INFO - Config file successfully loaded.
+06/01/2023 11:04:41 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:04:41 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:04:42 PM - INFO - Github file retrieval successful.
+06/01/2023 11:04:42 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:06:16 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:06:16 PM - INFO - Loading Config file
+06/01/2023 11:06:16 PM - INFO - Loading config file
+06/01/2023 11:06:16 PM - INFO - Config file successfully loaded.
+06/01/2023 11:06:16 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:06:16 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:06:17 PM - INFO - Github file retrieval successful.
+06/01/2023 11:06:17 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:06:40 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:06:40 PM - INFO - Loading Config file
+06/01/2023 11:06:40 PM - INFO - Loading config file
+06/01/2023 11:06:40 PM - INFO - Config file successfully loaded.
+06/01/2023 11:06:40 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:06:40 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:06:40 PM - INFO - Github file retrieval successful.
+06/01/2023 11:06:40 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:08:17 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:08:17 PM - INFO - Loading Config file
+06/01/2023 11:08:17 PM - INFO - Loading config file
+06/01/2023 11:08:17 PM - INFO - Config file successfully loaded.
+06/01/2023 11:08:17 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:08:17 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:08:18 PM - INFO - Github file retrieval successful.
+06/01/2023 11:08:18 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:08:19 PM - CRITICAL - Exception occurred in load_data: module 'extract_github' has no attribute 'extract_data'
+06/01/2023 11:10:30 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:10:30 PM - INFO - Loading Config file
+06/01/2023 11:10:30 PM - INFO - Loading config file
+06/01/2023 11:10:30 PM - INFO - Config file successfully loaded.
+06/01/2023 11:10:30 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:10:30 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:10:31 PM - INFO - Github file retrieval successful.
+06/01/2023 11:10:31 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:10:31 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:10:31 PM - INFO - Loading Config file
+06/01/2023 11:10:31 PM - INFO - Loading config file
+06/01/2023 11:10:31 PM - INFO - Config file successfully loaded.
+06/01/2023 11:10:31 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:10:31 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:10:31 PM - INFO - Github file retrieval successful.
+06/01/2023 11:10:31 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:10:31 PM - INFO - Data Successfully loaded into S3
+06/01/2023 11:26:53 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:26:53 PM - INFO - Loading Config file
+06/01/2023 11:26:53 PM - INFO - Loading config file
+06/01/2023 11:26:53 PM - INFO - Config file successfully loaded.
+06/01/2023 11:26:53 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:26:53 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:26:53 PM - INFO - Github file retrieval successful.
+06/01/2023 11:26:53 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:26:54 PM - INFO - Loading config file
+06/01/2023 11:26:54 PM - INFO - Config file successfully loaded.
+06/01/2023 11:26:54 PM - INFO - Retrieving GitHub token...
+06/01/2023 11:26:54 PM - INFO - Loading Config file
+06/01/2023 11:26:54 PM - INFO - Loading config file
+06/01/2023 11:26:54 PM - INFO - Config file successfully loaded.
+06/01/2023 11:26:54 PM - INFO - Retrieving GitHub token successful...
+06/01/2023 11:26:54 PM - INFO - Retrieving GitHub files...
+06/01/2023 11:26:54 PM - INFO - Github file retrieval successful.
+06/01/2023 11:26:54 PM - INFO - coverage-by-modzcta-allages.csv successfully extracted.
+06/01/2023 11:26:54 PM - INFO - Data Successfully loaded into S3
+06/01/2023 11:39:19 PM - INFO - Loading config file
+06/01/2023 11:39:19 PM - INFO - Config file successfully loaded.
+06/01/2023 11:39:19 PM - INFO - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.10.9, Platform: macOS-10.16-x86_64-i386-64bit
+06/01/2023 11:39:19 PM - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+06/01/2023 11:39:19 PM - INFO - Setting use_openssl_only mode to False
+06/01/2023 11:39:23 PM - INFO - query: [COPY INTO covid_19_vaccination_data_by_nyc_zipcode_fct (DATE, NEIGHBORHOOD_NAME,...]
+06/01/2023 11:39:25 PM - INFO - query execution done
+06/01/2023 11:39:25 PM - INFO - Number of results in first chunk: 1
+06/01/2023 11:39:25 PM - INFO - covid_19_data_20230601.csv uploaded successfully
+06/01/2023 11:39:25 PM - INFO - closed
+06/01/2023 11:39:25 PM - INFO - No async queries seem to be running, deleting session

@@ -1,0 +1,14 @@
+# apache-airflow==2.6.1
+# apache-airflow-providers-cncf-kubernetes==7.0.0
+# apache-airflow-providers-common-sql==1.4.0
+# apache-airflow-providers-ftp==3.3.1
+# apache-airflow-providers-http==4.3.0
+# apache-airflow-providers-imap==3.1.1
+# apache-airflow-providers-postgres==5.4.0
+# apache-airflow-providers-sqlite==3.3.2
+snowflake-connector-python==3.0.3
+boto3==1.26.141
+# pandas==1.5.3
+PyGithub==1.58.2
+# psycopg2-binary==2.9.6
+pytest==7.1.2

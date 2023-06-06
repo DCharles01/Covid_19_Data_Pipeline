@@ -1,0 +1,1679 @@
+[2023-06-05T11:33:18.178+0000] {processor.py:157} INFO - Started process (PID=52) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:33:18.218+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:33:18.221+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:33:18.221+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:33:18.350+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:33:18.316+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:33:18.359+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:33:18.557+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.396 seconds
+[2023-06-05T11:34:29.484+0000] {processor.py:157} INFO - Started process (PID=113) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:34:29.487+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:34:29.492+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:34:29.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:34:29.527+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:34:29.515+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:34:29.532+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:34:29.714+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.248 seconds
+[2023-06-05T11:35:00.815+0000] {processor.py:157} INFO - Started process (PID=165) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:35:00.829+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:35:00.835+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:35:00.835+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:35:00.880+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:35:00.867+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:35:00.882+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:35:00.965+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.177 seconds
+[2023-06-05T11:35:31.481+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:35:31.485+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:35:31.494+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:35:31.494+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:35:31.526+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:35:31.522+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:35:31.530+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:35:31.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.161 seconds
+[2023-06-05T11:36:01.806+0000] {processor.py:157} INFO - Started process (PID=273) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:36:01.809+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:36:01.812+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:36:01.811+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:36:01.830+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:36:01.825+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:36:01.841+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:36:01.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.142 seconds
+[2023-06-05T11:36:32.148+0000] {processor.py:157} INFO - Started process (PID=314) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:36:32.153+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:36:32.156+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:36:32.155+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:36:32.190+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:36:32.181+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:36:32.192+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:36:32.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.121 seconds
+[2023-06-05T11:37:03.879+0000] {processor.py:157} INFO - Started process (PID=362) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:37:03.886+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:37:03.894+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:37:03.892+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:37:03.964+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:37:03.916+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:37:04.004+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:37:04.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.278 seconds
+[2023-06-05T11:37:41.041+0000] {processor.py:157} INFO - Started process (PID=411) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:37:41.075+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:37:41.141+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:37:41.138+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:37:41.731+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:37:41.702+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:37:41.739+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:37:42.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 1.095 seconds
+[2023-06-05T11:38:16.362+0000] {processor.py:157} INFO - Started process (PID=465) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:38:16.376+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:38:16.384+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:38:16.384+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:38:16.443+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:38:16.427+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:38:16.452+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:38:16.583+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.251 seconds
+[2023-06-05T11:38:47.971+0000] {processor.py:157} INFO - Started process (PID=519) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:38:47.977+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:38:47.984+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:38:47.983+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:38:48.016+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:38:48.005+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:38:48.026+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:38:48.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.201 seconds
+[2023-06-05T11:39:18.724+0000] {processor.py:157} INFO - Started process (PID=574) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:39:18.726+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:39:18.729+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:39:18.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:39:18.746+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:39:18.741+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:39:18.748+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:39:18.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.065 seconds
+[2023-06-05T11:39:52.683+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:39:52.695+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:39:52.769+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:39:52.769+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:39:52.862+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:39:52.844+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:39:52.912+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:39:53.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.551 seconds
+[2023-06-05T11:40:26.614+0000] {processor.py:157} INFO - Started process (PID=648) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:40:26.617+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:40:26.620+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:40:26.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:40:26.644+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:40:26.639+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:40:26.646+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:40:26.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.142 seconds
+[2023-06-05T11:40:57.691+0000] {processor.py:157} INFO - Started process (PID=700) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:40:57.966+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:40:58.313+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:40:58.313+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:40:58.872+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:40:58.792+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:40:58.875+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:40:59.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 1.489 seconds
+[2023-06-05T11:41:29.683+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:41:29.686+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T11:41:29.688+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:41:29.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:41:29.702+0000] {logging_mixin.py:149} INFO - [2023-06-05T11:41:29.698+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T11:41:29.709+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T11:41:29.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.113 seconds
+[2023-06-05T12:02:19.547+0000] {processor.py:157} INFO - Started process (PID=40) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:02:19.736+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:02:19.754+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:02:19.753+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:02:20.085+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:02:19.975+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:02:20.096+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:02:23.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 4.250 seconds
+[2023-06-05T12:03:26.406+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:03:26.418+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:03:26.422+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:03:26.422+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:03:26.492+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:03:26.438+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:03:26.556+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:03:26.667+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.298 seconds
+[2023-06-05T12:03:57.390+0000] {processor.py:157} INFO - Started process (PID=155) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:03:57.397+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:03:57.401+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:03:57.400+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:03:57.430+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:03:57.422+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:03:57.435+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:03:57.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.130 seconds
+[2023-06-05T12:04:30.692+0000] {processor.py:157} INFO - Started process (PID=206) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:04:30.723+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:04:30.804+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:04:30.804+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:04:31.266+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:04:31.211+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:04:31.345+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:04:31.819+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 1.200 seconds
+[2023-06-05T12:05:06.235+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:05:06.510+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:05:06.546+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:05:06.546+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:05:06.672+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:05:06.662+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:05:06.795+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:05:07.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 1.579 seconds
+[2023-06-05T12:05:37.820+0000] {processor.py:157} INFO - Started process (PID=314) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:05:37.825+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:05:37.828+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:05:37.827+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:05:37.845+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:05:37.840+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:05:37.850+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:05:37.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.084 seconds
+[2023-06-05T12:06:08.215+0000] {processor.py:157} INFO - Started process (PID=369) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:06:08.219+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:06:08.223+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:06:08.223+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:06:08.248+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:06:08.241+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:06:08.252+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:06:08.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.080 seconds
+[2023-06-05T12:06:38.480+0000] {processor.py:157} INFO - Started process (PID=419) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:06:38.483+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:06:38.486+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:06:38.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:06:38.508+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:06:38.498+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:06:38.511+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:06:38.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.071 seconds
+[2023-06-05T12:07:08.708+0000] {processor.py:157} INFO - Started process (PID=474) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:08.713+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:07:08.717+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:07:08.716+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:08.734+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:07:08.729+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:07:08.737+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:08.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.073 seconds
+[2023-06-05T12:07:30.290+0000] {processor.py:157} INFO - Started process (PID=506) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:30.292+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:07:30.295+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:07:30.295+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:30.344+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:07:30.340+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:07:30.346+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:30.439+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.154 seconds
+[2023-06-05T12:07:48.682+0000] {processor.py:157} INFO - Started process (PID=542) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:48.686+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:07:48.698+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:07:48.698+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:48.760+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:07:48.752+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:07:48.764+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:07:48.812+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.137 seconds
+[2023-06-05T12:08:18.989+0000] {processor.py:157} INFO - Started process (PID=597) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:19.014+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:08:19.019+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:08:19.017+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:19.126+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:08:19.101+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:08:19.156+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:19.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.281 seconds
+[2023-06-05T12:08:41.971+0000] {processor.py:157} INFO - Started process (PID=636) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:41.980+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:08:41.986+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:08:41.986+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:42.023+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:08:42.018+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:08:42.025+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:42.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.103 seconds
+[2023-06-05T12:08:42.761+0000] {processor.py:157} INFO - Started process (PID=640) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:42.773+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:08:42.775+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:08:42.775+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:42.858+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:08:42.844+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 8, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:08:42.862+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:08:43.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.438 seconds
+[2023-06-05T12:09:07.801+0000] {processor.py:157} INFO - Started process (PID=677) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:09:07.805+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:09:07.807+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:09:07.807+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:09:07.845+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:09:07.841+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:09:07.848+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:09:07.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.097 seconds
+[2023-06-05T12:09:38.108+0000] {processor.py:157} INFO - Started process (PID=733) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:09:38.112+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:09:38.114+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:09:38.114+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:09:38.147+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:09:38.142+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:09:38.149+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:09:38.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.096 seconds
+[2023-06-05T12:10:09.126+0000] {processor.py:157} INFO - Started process (PID=788) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:10:09.129+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:10:09.133+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:10:09.133+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:10:09.167+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:10:09.163+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:10:09.169+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:10:09.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.114 seconds
+[2023-06-05T12:10:40.573+0000] {processor.py:157} INFO - Started process (PID=842) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:10:40.581+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:10:40.590+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:10:40.590+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:10:40.664+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:10:40.647+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:10:40.668+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:10:40.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.188 seconds
+[2023-06-05T12:11:11.473+0000] {processor.py:157} INFO - Started process (PID=895) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:11:11.480+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:11:11.483+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:11:11.482+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:11:11.508+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:11:11.504+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:11:11.510+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:11:11.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.080 seconds
+[2023-06-05T12:11:41.684+0000] {processor.py:157} INFO - Started process (PID=950) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:11:41.688+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:11:41.690+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:11:41.690+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:11:41.703+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:11:41.699+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:11:41.705+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:11:41.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.060 seconds
+[2023-06-05T12:12:11.973+0000] {processor.py:157} INFO - Started process (PID=1011) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:12:11.978+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:12:11.983+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:12:11.981+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:12:12.001+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:12:11.996+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:12:12.004+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:12:12.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.148 seconds
+[2023-06-05T12:12:42.562+0000] {processor.py:157} INFO - Started process (PID=1067) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:12:42.568+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:12:42.571+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:12:42.570+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:12:42.587+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:12:42.583+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:12:42.596+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:12:42.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.086 seconds
+[2023-06-05T12:13:13.404+0000] {processor.py:157} INFO - Started process (PID=1122) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:13:13.408+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T12:13:13.417+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:13:13.417+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T12:13:13.539+0000] {logging_mixin.py:149} INFO - [2023-06-05T12:13:13.469+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'extract_github'
+[2023-06-05T12:13:13.602+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:00:39.958+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:00:39.973+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:00:39.980+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:00:39.979+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:00:40.082+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:00:40.053+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:00:40.085+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:00:40.231+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.292 seconds
+[2023-06-05T13:01:11.283+0000] {processor.py:157} INFO - Started process (PID=87) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:01:11.291+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:01:11.320+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:01:11.320+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:01:11.477+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:01:11.448+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:01:11.489+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:01:11.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.607 seconds
+[2023-06-05T13:01:42.296+0000] {processor.py:157} INFO - Started process (PID=142) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:01:42.300+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:01:42.304+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:01:42.303+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:01:42.344+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:01:42.340+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:01:42.346+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:01:42.411+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.120 seconds
+[2023-06-05T13:02:12.499+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:02:12.505+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:02:12.509+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:02:12.508+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:02:12.529+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:02:12.522+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:02:12.531+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:02:12.575+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.081 seconds
+[2023-06-05T13:02:36.403+0000] {processor.py:157} INFO - Started process (PID=252) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:02:36.416+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:02:36.428+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:02:36.428+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:02:36.508+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:02:36.492+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 6, in <module>
+    sys.path.insert('../..') # import parent directory
+TypeError: insert() takes exactly 2 arguments (1 given)
+[2023-06-05T13:02:36.540+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:02:36.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.237 seconds
+[2023-06-05T13:04:31.479+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:04:31.484+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:04:31.494+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:04:31.494+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:04:31.592+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:04:31.559+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:04:31.598+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:04:31.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.310 seconds
+[2023-06-05T13:05:01.908+0000] {processor.py:157} INFO - Started process (PID=86) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:05:01.912+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:05:01.931+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:05:01.930+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:05:01.944+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:05:01.941+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:05:01.945+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:05:01.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.085 seconds
+[2023-06-05T13:05:32.878+0000] {processor.py:157} INFO - Started process (PID=141) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:05:32.895+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:05:32.910+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:05:32.901+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:05:33.003+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:05:32.998+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:05:33.006+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:05:33.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.242 seconds
+[2023-06-05T13:06:03.598+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:06:03.601+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:06:03.611+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:06:03.610+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:06:03.642+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:06:03.639+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:06:03.644+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:06:03.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.252 seconds
+[2023-06-05T13:06:34.410+0000] {processor.py:157} INFO - Started process (PID=251) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:06:34.421+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:06:34.432+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:06:34.432+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:06:34.462+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:06:34.456+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:06:34.464+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:06:34.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.141 seconds
+[2023-06-05T13:07:05.215+0000] {processor.py:157} INFO - Started process (PID=306) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:07:05.234+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:07:05.237+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:07:05.237+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:07:05.255+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:07:05.249+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:07:05.257+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:07:05.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.104 seconds
+[2023-06-05T13:34:57.104+0000] {processor.py:157} INFO - Started process (PID=368) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:34:57.125+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:34:57.132+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:34:57.131+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:34:57.292+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:34:57.242+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:34:57.296+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:34:57.719+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.631 seconds
+[2023-06-05T13:35:34.978+0000] {processor.py:157} INFO - Started process (PID=423) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:35:34.986+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:35:34.997+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:35:34.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:35:35.069+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:35:35.054+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:35:35.072+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:35:35.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.232 seconds
+[2023-06-05T13:51:08.024+0000] {processor.py:157} INFO - Started process (PID=444) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:51:08.043+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:51:08.069+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:51:08.068+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:51:08.210+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:51:08.185+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:51:08.217+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:51:08.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.345 seconds
+[2023-06-05T13:51:47.692+0000] {processor.py:157} INFO - Started process (PID=499) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:51:47.695+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:51:47.700+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:51:47.700+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:51:47.753+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:51:47.730+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:51:47.766+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:51:47.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.177 seconds
+[2023-06-05T13:52:18.868+0000] {processor.py:157} INFO - Started process (PID=552) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:52:18.880+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:52:18.887+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:52:18.887+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:52:18.980+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:52:18.962+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:52:18.995+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:52:19.152+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.302 seconds
+[2023-06-05T13:52:49.755+0000] {processor.py:157} INFO - Started process (PID=606) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:52:49.775+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:52:49.795+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:52:49.793+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:52:49.915+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:52:49.864+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:52:49.918+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:52:50.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.313 seconds
+[2023-06-05T13:53:20.259+0000] {processor.py:157} INFO - Started process (PID=658) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:53:20.264+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:53:20.268+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:53:20.267+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:53:20.321+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:53:20.300+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:53:20.389+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:53:20.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.330 seconds
+[2023-06-05T13:53:51.249+0000] {processor.py:157} INFO - Started process (PID=711) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:53:51.296+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:53:51.302+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:53:51.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:53:51.367+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:53:51.350+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:53:51.381+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:53:51.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.371 seconds
+[2023-06-05T13:54:22.037+0000] {processor.py:157} INFO - Started process (PID=766) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:54:22.048+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:54:22.053+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:54:22.052+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:54:22.096+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:54:22.091+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:54:22.098+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:54:22.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.139 seconds
+[2023-06-05T13:54:52.570+0000] {processor.py:157} INFO - Started process (PID=819) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:54:52.580+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:54:52.585+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:54:52.585+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:54:52.622+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:54:52.617+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:54:52.641+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:54:52.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.185 seconds
+[2023-06-05T13:55:23.487+0000] {processor.py:157} INFO - Started process (PID=874) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:55:23.508+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:55:23.511+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:55:23.511+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:55:23.528+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:55:23.524+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:55:23.531+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:55:23.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.133 seconds
+[2023-06-05T13:55:53.736+0000] {processor.py:157} INFO - Started process (PID=928) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:55:53.739+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:55:53.756+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:55:53.756+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:55:53.772+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:55:53.768+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:55:53.774+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:55:53.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.088 seconds
+[2023-06-05T13:56:24.221+0000] {processor.py:157} INFO - Started process (PID=981) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:56:24.225+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:56:24.231+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:56:24.230+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:56:24.268+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:56:24.263+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:56:24.272+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:56:24.330+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.122 seconds
+[2023-06-05T13:56:54.558+0000] {processor.py:157} INFO - Started process (PID=1036) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:56:54.563+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:56:54.566+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:56:54.566+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:56:54.585+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:56:54.580+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:56:54.587+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:56:54.630+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.078 seconds
+[2023-06-05T13:57:24.781+0000] {processor.py:157} INFO - Started process (PID=1090) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:57:24.790+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:57:24.803+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:57:24.802+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:57:24.823+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:57:24.820+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:57:24.825+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:57:24.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.109 seconds
+[2023-06-05T13:57:55.281+0000] {processor.py:157} INFO - Started process (PID=1144) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:57:55.285+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:57:55.302+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:57:55.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:57:55.330+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:57:55.327+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:57:55.334+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:57:55.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.117 seconds
+[2023-06-05T13:58:25.848+0000] {processor.py:157} INFO - Started process (PID=1199) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:58:25.851+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:58:25.854+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:58:25.854+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:58:25.875+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:58:25.871+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:58:25.877+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:58:25.927+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.090 seconds
+[2023-06-05T13:58:56.257+0000] {processor.py:157} INFO - Started process (PID=1254) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:58:56.264+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:58:56.267+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:58:56.267+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:58:56.282+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:58:56.280+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:58:56.284+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:58:56.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.082 seconds
+[2023-06-05T13:59:26.917+0000] {processor.py:157} INFO - Started process (PID=1309) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:59:26.925+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T13:59:26.928+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:59:26.927+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:59:26.967+0000] {logging_mixin.py:149} INFO - [2023-06-05T13:59:26.943+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T13:59:26.972+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T13:59:27.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.122 seconds
+[2023-06-05T14:29:49.552+0000] {processor.py:157} INFO - Started process (PID=1358) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:29:49.598+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:29:49.620+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:29:49.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:29:49.693+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:29:49.682+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:29:49.777+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:29:50.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.593 seconds
+[2023-06-05T14:30:21.137+0000] {processor.py:157} INFO - Started process (PID=1413) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:30:21.154+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:30:21.161+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:30:21.160+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:30:21.249+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:30:21.224+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:30:21.259+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:30:21.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.249 seconds
+[2023-06-05T14:30:52.084+0000] {processor.py:157} INFO - Started process (PID=1466) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:30:52.111+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:30:52.116+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:30:52.116+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:30:52.314+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:30:52.264+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:30:52.330+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:30:52.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.394 seconds
+[2023-06-05T14:31:23.171+0000] {processor.py:157} INFO - Started process (PID=1519) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:31:23.185+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:31:23.190+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:31:23.190+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:31:23.225+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:31:23.211+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:31:23.229+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:31:23.302+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.144 seconds
+[2023-06-05T14:31:53.501+0000] {processor.py:157} INFO - Started process (PID=1573) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:31:53.505+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:31:53.516+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:31:53.516+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:31:53.546+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:31:53.537+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:31:53.549+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:31:53.594+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.101 seconds
+[2023-06-05T14:32:23.890+0000] {processor.py:157} INFO - Started process (PID=1628) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:32:23.894+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:32:23.900+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:32:23.899+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:32:23.959+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:32:23.921+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:32:23.983+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:32:24.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.207 seconds
+[2023-06-05T14:32:54.708+0000] {processor.py:157} INFO - Started process (PID=1680) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:32:54.713+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:32:54.719+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:32:54.718+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:32:54.778+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:32:54.753+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:32:54.781+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:32:54.857+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.195 seconds
+[2023-06-05T14:33:25.841+0000] {processor.py:157} INFO - Started process (PID=1734) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:33:25.847+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:33:25.853+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:33:25.852+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:33:25.888+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:33:25.877+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:33:25.893+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:33:25.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.155 seconds
+[2023-06-05T14:33:56.563+0000] {processor.py:157} INFO - Started process (PID=1789) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:33:56.583+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:33:56.606+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:33:56.606+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:33:56.649+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:33:56.636+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:33:56.653+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:33:56.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.164 seconds
+[2023-06-05T14:34:27.702+0000] {processor.py:157} INFO - Started process (PID=1844) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:34:27.711+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:34:27.715+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:34:27.715+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:34:27.748+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:34:27.735+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:34:27.751+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:34:27.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.117 seconds
+[2023-06-05T14:34:58.084+0000] {processor.py:157} INFO - Started process (PID=1894) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:34:58.096+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:34:58.111+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:34:58.111+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:34:58.152+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:34:58.138+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:34:58.157+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:34:58.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.126 seconds
+[2023-06-05T14:35:28.539+0000] {processor.py:157} INFO - Started process (PID=1950) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:35:28.559+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:35:28.561+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:35:28.561+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:35:28.574+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:35:28.571+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:35:28.576+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:35:28.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.080 seconds
+[2023-06-05T14:35:59.116+0000] {processor.py:157} INFO - Started process (PID=2005) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:35:59.120+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:35:59.123+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:35:59.122+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:35:59.140+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:35:59.136+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:35:59.142+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:35:59.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.083 seconds
+[2023-06-05T14:36:29.359+0000] {processor.py:157} INFO - Started process (PID=2060) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:36:29.362+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:36:29.365+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:36:29.364+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:36:29.381+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:36:29.378+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:36:29.382+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:36:29.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.076 seconds
+[2023-06-05T14:36:59.513+0000] {processor.py:157} INFO - Started process (PID=2113) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:36:59.522+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:36:59.525+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:36:59.525+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:36:59.541+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:36:59.537+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:36:59.549+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:36:59.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.082 seconds
+[2023-06-05T14:37:29.747+0000] {processor.py:157} INFO - Started process (PID=2168) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:37:29.751+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:37:29.757+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:37:29.756+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:37:29.782+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:37:29.778+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:37:29.783+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:37:29.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.080 seconds
+[2023-06-05T14:38:00.083+0000] {processor.py:157} INFO - Started process (PID=2222) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:38:00.109+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:38:00.116+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:38:00.115+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:38:00.139+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:38:00.134+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:38:00.142+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:38:00.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.149 seconds
+[2023-06-05T14:38:30.678+0000] {processor.py:157} INFO - Started process (PID=2277) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:38:30.682+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T14:38:30.686+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:38:30.685+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:38:30.706+0000] {logging_mixin.py:149} INFO - [2023-06-05T14:38:30.700+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T14:38:30.710+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T14:38:30.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.087 seconds
+[2023-06-05T15:29:18.902+0000] {processor.py:157} INFO - Started process (PID=2312) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:29:18.916+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:29:18.953+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:29:18.921+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:29:19.250+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:29:19.200+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:29:19.255+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:29:19.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 1.032 seconds
+[2023-06-05T15:30:00.956+0000] {processor.py:157} INFO - Started process (PID=2367) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:30:00.962+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:30:00.973+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:30:00.972+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:30:01.086+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:30:01.070+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:30:01.093+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:30:01.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.341 seconds
+[2023-06-05T15:30:31.565+0000] {processor.py:157} INFO - Started process (PID=2419) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:30:31.570+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:30:31.574+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:30:31.573+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:30:31.638+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:30:31.608+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:30:31.654+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:30:31.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.205 seconds
+[2023-06-05T15:31:02.028+0000] {processor.py:157} INFO - Started process (PID=2473) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:31:02.041+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:31:02.046+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:31:02.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:31:02.075+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:31:02.067+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:31:02.079+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:31:02.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.125 seconds
+[2023-06-05T15:31:32.577+0000] {processor.py:157} INFO - Started process (PID=2528) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:31:32.589+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:31:32.594+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:31:32.593+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:31:32.641+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:31:32.635+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:31:32.648+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:31:32.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.141 seconds
+[2023-06-05T15:32:03.221+0000] {processor.py:157} INFO - Started process (PID=2583) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:32:03.237+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:32:03.249+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:32:03.248+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:32:03.328+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:32:03.302+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:32:03.349+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:32:03.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.229 seconds
+[2023-06-05T15:32:34.392+0000] {processor.py:157} INFO - Started process (PID=2638) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:32:34.397+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:32:34.403+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:32:34.402+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:32:34.460+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:32:34.440+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:32:34.482+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:32:34.620+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.241 seconds
+[2023-06-05T15:33:04.809+0000] {processor.py:157} INFO - Started process (PID=2693) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:33:04.816+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:33:04.822+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:33:04.822+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:33:04.862+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:33:04.856+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:33:04.867+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:33:04.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.120 seconds
+[2023-06-05T15:33:35.090+0000] {processor.py:157} INFO - Started process (PID=2743) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:33:35.096+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:33:35.101+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:33:35.100+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:33:35.131+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:33:35.119+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:33:35.134+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:33:35.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.116 seconds
+[2023-06-05T15:34:05.313+0000] {processor.py:157} INFO - Started process (PID=2795) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:34:05.324+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:34:05.329+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:34:05.329+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:34:05.370+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:34:05.362+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:34:05.375+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:34:05.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.242 seconds
+[2023-06-05T15:34:35.963+0000] {processor.py:157} INFO - Started process (PID=2850) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:34:35.978+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:34:35.984+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:34:35.983+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:34:36.032+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:34:36.025+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:34:36.036+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:34:36.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.193 seconds
+[2023-06-05T15:35:06.377+0000] {processor.py:157} INFO - Started process (PID=2905) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:35:06.380+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:35:06.382+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:35:06.382+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:35:06.409+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:35:06.396+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:35:06.412+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:35:06.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.102 seconds
+[2023-06-05T15:35:37.314+0000] {processor.py:157} INFO - Started process (PID=2960) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:35:37.318+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:35:37.321+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:35:37.321+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:35:37.338+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:35:37.334+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:35:37.347+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:35:37.386+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.085 seconds
+[2023-06-05T15:36:07.541+0000] {processor.py:157} INFO - Started process (PID=3014) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:36:07.545+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:36:07.548+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:36:07.548+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:36:07.572+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:36:07.567+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:36:07.575+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:36:07.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.085 seconds
+[2023-06-05T15:36:37.848+0000] {processor.py:157} INFO - Started process (PID=3069) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:36:37.851+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:36:37.854+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:36:37.853+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:36:37.880+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:36:37.874+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:36:37.882+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:36:37.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.072 seconds
+[2023-06-05T15:37:08.282+0000] {processor.py:157} INFO - Started process (PID=3123) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:37:08.285+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:37:08.291+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:37:08.290+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:37:08.316+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:37:08.310+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:37:08.320+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:37:08.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.113 seconds
+[2023-06-05T15:37:38.726+0000] {processor.py:157} INFO - Started process (PID=3179) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:37:38.730+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:37:38.732+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:37:38.732+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:37:38.744+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:37:38.741+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:37:38.747+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:37:38.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.061 seconds
+[2023-06-05T15:38:09.184+0000] {processor.py:157} INFO - Started process (PID=3234) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:38:09.187+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:38:09.189+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:38:09.189+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:38:09.205+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:38:09.202+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:38:09.207+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:38:09.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.070 seconds
+[2023-06-05T15:38:40.042+0000] {processor.py:157} INFO - Started process (PID=3289) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:38:40.045+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T15:38:40.048+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:38:40.048+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:38:40.063+0000] {logging_mixin.py:149} INFO - [2023-06-05T15:38:40.059+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T15:38:40.066+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T15:38:40.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.071 seconds
+[2023-06-05T16:09:08.449+0000] {processor.py:157} INFO - Started process (PID=3351) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:09:08.464+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:09:08.481+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:09:08.481+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:09:08.578+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:09:08.558+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:09:08.599+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:09:08.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.305 seconds
+[2023-06-05T16:09:39.159+0000] {processor.py:157} INFO - Started process (PID=3405) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:09:39.169+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:09:39.175+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:09:39.175+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:09:39.224+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:09:39.217+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:09:39.229+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:09:39.298+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.159 seconds
+[2023-06-05T16:10:09.645+0000] {processor.py:157} INFO - Started process (PID=3459) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:10:09.678+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:10:09.693+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:10:09.686+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:10:09.743+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:10:09.727+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:10:09.747+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:10:09.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.224 seconds
+[2023-06-05T16:10:40.668+0000] {processor.py:157} INFO - Started process (PID=3514) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:10:40.695+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:10:40.702+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:10:40.701+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:10:40.756+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:10:40.747+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:10:40.761+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:10:40.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.155 seconds
+[2023-06-05T16:11:11.656+0000] {processor.py:157} INFO - Started process (PID=3566) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:11:11.679+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:11:11.692+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:11:11.691+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:11:11.764+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:11:11.720+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:11:11.775+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:11:11.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.271 seconds
+[2023-06-05T16:11:42.747+0000] {processor.py:157} INFO - Started process (PID=3621) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:11:42.758+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:11:42.765+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:11:42.765+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:11:42.794+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:11:42.785+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:11:42.797+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:11:42.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.128 seconds
+[2023-06-05T16:12:13.643+0000] {processor.py:157} INFO - Started process (PID=3677) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:12:13.664+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:12:13.679+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:12:13.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:12:13.843+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:12:13.818+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:12:13.868+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:12:14.104+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.509 seconds
+[2023-06-05T16:12:44.273+0000] {processor.py:157} INFO - Started process (PID=3732) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:12:44.278+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:12:44.283+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:12:44.282+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:12:44.309+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:12:44.301+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:12:44.312+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:12:44.378+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.113 seconds
+[2023-06-05T16:13:14.885+0000] {processor.py:157} INFO - Started process (PID=3784) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:13:14.890+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:13:14.904+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:13:14.903+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:13:14.961+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:13:14.948+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:13:14.964+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:13:15.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.130 seconds
+[2023-06-05T16:13:45.499+0000] {processor.py:157} INFO - Started process (PID=3839) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:13:45.501+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:13:45.518+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:13:45.516+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:13:45.547+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:13:45.544+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:13:45.549+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:13:45.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.102 seconds
+[2023-06-05T16:14:16.491+0000] {processor.py:157} INFO - Started process (PID=3895) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:14:16.493+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:14:16.497+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:14:16.496+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:14:16.517+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:14:16.512+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:14:16.522+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:14:16.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.080 seconds
+[2023-06-05T16:38:39.507+0000] {processor.py:157} INFO - Started process (PID=3922) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:38:39.542+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:38:39.560+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:38:39.560+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:38:39.628+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:38:39.594+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:38:39.631+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:38:39.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.324 seconds
+[2023-06-05T16:39:10.582+0000] {processor.py:157} INFO - Started process (PID=3977) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:39:10.587+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:39:10.592+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:39:10.591+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:39:10.609+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:39:10.605+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:39:10.614+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:39:10.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.084 seconds
+[2023-06-05T16:54:28.722+0000] {processor.py:157} INFO - Started process (PID=4026) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:54:28.730+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:54:28.742+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:54:28.742+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:54:28.851+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:54:28.820+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:54:28.879+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:54:29.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.427 seconds
+[2023-06-05T16:54:59.780+0000] {processor.py:157} INFO - Started process (PID=4081) to work on /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:54:59.785+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/covid_19_elt_pipeline.py for tasks to queue
+[2023-06-05T16:54:59.790+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:54:59.790+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:54:59.808+0000] {logging_mixin.py:149} INFO - [2023-06-05T16:54:59.804+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/covid_19_elt_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/covid_19_elt_pipeline.py", line 7, in <module>
+    from src import extract_github, load_s3, load_snowflake
+ModuleNotFoundError: No module named 'src'
+[2023-06-05T16:54:59.812+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/covid_19_elt_pipeline.py
+[2023-06-05T16:54:59.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/covid_19_elt_pipeline.py took 0.096 seconds
